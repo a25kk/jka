@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layers>
+    <layer
+            name="jka.sitetheme"
+            interface="jka.sitetheme.interfaces.IJkaSiteThemeLayer"
+            remove="true"
+    />
+</layers>
