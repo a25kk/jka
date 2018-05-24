@@ -466,7 +466,7 @@ mark,
   content: "\2014 \00A0";
 }
 
-.img-fluid, .app-brandname-logo-image, .app-img {
+.img-fluid, .app-brandname-logo-image, .app-banner-image, .app-img {
   max-width: 100%;
   height: auto;
 }
@@ -9140,38 +9140,160 @@ img[data-sizes="auto"] {
   box-shadow: 0 0 0 0.2rem rgba(66, 129, 183, 0.5);
 }
 
-.app-bannerbar {
-  background: #66aee9;
-}
-
 .app-banner {
   position: relative;
 }
 
+.app-banner {
+  overflow: hidden;
+  margin-bottom: 2rem;
+  background: #fff;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .app-banner {
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    height: 100%;
+    min-height: 430px;
+  }
+}
+
+/* ---- Single banner item ---- */
 .app-banner-item {
   position: relative;
   height: 100%;
   min-height: 430px;
+  width: 100%;
+  background-size: cover !important;
+  background-position: top center;
+  text-align: center;
 }
 
-.app-banner-item-caption {
-  position: absolute;
-  top: 66%;
+.app-banner-item-content {
+  width: 100%;
+  color: #fff;
+  height: 100%;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, transparent 30%, transparent 72%, black 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
+}
+
+.app-banner-item-body {
+  position: absolute !important;
   left: 0;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  line-height: 1.25;
-  color: #ced4da;
+  right: 0;
+  bottom: 1rem;
+  margin: 0 auto;
+  color: #fff;
+  padding: 2rem 2rem 1rem 2rem;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.app-banner-item-caption a {
-  color: #ced4da;
-  text-decoration: underline;
+@media (min-width: 576px) {
+  .app-banner-item-body {
+    max-width: 540px;
+  }
 }
 
-.app-banner-item-title {
-  font-size: 1.5rem;
-  font-weight: 500;
+@media (min-width: 768px) {
+  .app-banner-item-body {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .app-banner-item-body {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .app-banner-item-body {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 576px) {
+  .app-banner-item-body {
+    padding: 1rem;
+    bottom: 3rem;
+  }
+}
+
+.app-banner-item-title,
+.app-banner-item-headline {
+  font-size: 1.2rem;
+  font-family: 'Kaushan Script', cursive;
+}
+
+@media (min-width: 576px) {
+  .app-banner-item-title,
+  .app-banner-item-headline {
+    font-size: 3rem;
+  }
+}
+
+.app-banner-item-description {
+  font-size: 0.9rem;
+}
+
+.app-banner-item-abstract {
+  text-transform: none;
+}
+
+.app-banner-text {
+  font-size: 1rem;
+}
+
+.app-banner-text a {
+  color: #fff;
+}
+
+/* ---- flickity overrides ---- */
+.flickity-prev-next-button {
+  background: transparent;
+  border: 0;
+  position: absolute;
+}
+
+.flickity-prev-next-button .arrow {
+  fill: #fff;
+}
+
+.flickity-prev-next-button:hover {
+  background: none;
+}
+
+.flickity-page-dots {
+  text-align: right;
+  bottom: 10px !important;
+  padding-right: 3rem;
+}
+
+.flickity-page-dots .dot {
+  background: #fff;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .flickity-page-dots {
+    display: block;
+    text-align: right;
+    padding-right: 1rem;
+  }
 }
 
 .app-cards {
