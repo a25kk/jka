@@ -51,7 +51,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -357,31 +357,31 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.575rem;
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 300;
 }
 
@@ -453,7 +453,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .blockquote-footer {
@@ -1735,11 +1735,11 @@ input[type="email"],
 input[type="url"],
 input[type="search"],
 input[type="tel"],
-input[type="color"], .app-searchbox-field {
+input[type="color"] {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
@@ -1765,7 +1765,7 @@ input[type="color"], .app-searchbox-field {
   input[type="url"],
   input[type="search"],
   input[type="tel"],
-  input[type="color"], .app-searchbox-field {
+  input[type="color"] {
     transition: none;
   }
 }
@@ -1785,7 +1785,7 @@ input[type="email"]::-ms-expand,
 input[type="url"]::-ms-expand,
 input[type="search"]::-ms-expand,
 input[type="tel"]::-ms-expand,
-input[type="color"]::-ms-expand, .app-searchbox-field::-ms-expand {
+input[type="color"]::-ms-expand {
   background-color: transparent;
   border: 0;
 }
@@ -1805,7 +1805,7 @@ input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
-input[type="color"]:focus, .app-searchbox-field:focus {
+input[type="color"]:focus {
   color: #495057;
   background-color: #fff;
   border-color: #80bdff;
@@ -1828,7 +1828,7 @@ input[type="email"]::-webkit-input-placeholder,
 input[type="url"]::-webkit-input-placeholder,
 input[type="search"]::-webkit-input-placeholder,
 input[type="tel"]::-webkit-input-placeholder,
-input[type="color"]::-webkit-input-placeholder, .app-searchbox-field::-webkit-input-placeholder {
+input[type="color"]::-webkit-input-placeholder {
   color: #6c757d;
   opacity: 1;
 }
@@ -1848,7 +1848,7 @@ input[type="email"]:-ms-input-placeholder,
 input[type="url"]:-ms-input-placeholder,
 input[type="search"]:-ms-input-placeholder,
 input[type="tel"]:-ms-input-placeholder,
-input[type="color"]:-ms-input-placeholder, .app-searchbox-field:-ms-input-placeholder {
+input[type="color"]:-ms-input-placeholder {
   color: #6c757d;
   opacity: 1;
 }
@@ -1868,7 +1868,7 @@ input[type="email"]::placeholder,
 input[type="url"]::placeholder,
 input[type="search"]::placeholder,
 input[type="tel"]::placeholder,
-input[type="color"]::placeholder, .app-searchbox-field::placeholder {
+input[type="color"]::placeholder {
   color: #6c757d;
   opacity: 1;
 }
@@ -1888,7 +1888,7 @@ input[type="email"]:disabled,
 input[type="url"]:disabled,
 input[type="search"]:disabled,
 input[type="tel"]:disabled,
-input[type="color"]:disabled, .app-searchbox-field:disabled, .form-control[readonly], select[readonly],
+input[type="color"]:disabled, .form-control[readonly], select[readonly],
 textarea[readonly],
 input[readonly][type="text"],
 input[readonly][type="password"],
@@ -1903,13 +1903,13 @@ input[readonly][type="email"],
 input[readonly][type="url"],
 input[readonly][type="search"],
 input[readonly][type="tel"],
-input[readonly][type="color"], [readonly].app-searchbox-field {
+input[readonly][type="color"] {
   background-color: #e9ecef;
   opacity: 1;
 }
 
 select.form-control:not([size]):not([multiple]), select:not([size]):not([multiple]) {
-  height: calc(2.25rem + 2px);
+  height: calc(2.1rem + 2px);
 }
 
 select.form-control:focus::-ms-value, select:focus::-ms-value {
@@ -1934,14 +1934,14 @@ select.form-control:focus::-ms-value, select:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.5;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 0.875rem;
+  font-size: 0.7875rem;
   line-height: 1.5;
 }
 
@@ -1973,7 +1973,7 @@ input.form-control-plaintext[type="email"], .input-group-sm >
 input.form-control-plaintext[type="url"], .input-group-sm >
 input.form-control-plaintext[type="search"], .input-group-sm >
 input.form-control-plaintext[type="tel"], .input-group-sm >
-input.form-control-plaintext[type="color"], .input-group-sm > .form-control-plaintext.app-searchbox-field,
+input.form-control-plaintext[type="color"],
 .input-group-sm > .input-group-prepend > .form-control-plaintext.input-group-text,
 .input-group-sm > .input-group-append > .form-control-plaintext.input-group-text,
 .input-group-sm > .input-group-prepend > .form-control-plaintext.btn,
@@ -1992,7 +1992,7 @@ input.form-control-plaintext[type="email"], .input-group-lg >
 input.form-control-plaintext[type="url"], .input-group-lg >
 input.form-control-plaintext[type="search"], .input-group-lg >
 input.form-control-plaintext[type="tel"], .input-group-lg >
-input.form-control-plaintext[type="color"], .input-group-lg > .form-control-plaintext.app-searchbox-field,
+input.form-control-plaintext[type="color"],
 .input-group-lg > .input-group-prepend > .form-control-plaintext.input-group-text,
 .input-group-lg > .input-group-append > .form-control-plaintext.input-group-text,
 .input-group-lg > .input-group-prepend > .form-control-plaintext.btn,
@@ -2016,13 +2016,13 @@ input[type="email"], .input-group-sm >
 input[type="url"], .input-group-sm >
 input[type="search"], .input-group-sm >
 input[type="tel"], .input-group-sm >
-input[type="color"], .input-group-sm > .app-searchbox-field,
+input[type="color"],
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.7875rem;
   line-height: 1.5;
 }
 
@@ -2031,7 +2031,7 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select:not
 .input-group-sm > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-sm > .input-group-prepend > select.btn:not([size]):not([multiple]),
 .input-group-sm > .input-group-append > select.btn:not([size]):not([multiple]) {
-  height: calc(1.8125rem + 2px);
+  height: calc(1.68125rem + 2px);
 }
 
 .form-control-lg, .input-group-lg > .form-control, .input-group-lg > select, .input-group-lg >
@@ -2049,13 +2049,13 @@ input[type="email"], .input-group-lg >
 input[type="url"], .input-group-lg >
 input[type="search"], .input-group-lg >
 input[type="tel"], .input-group-lg >
-input[type="color"], .input-group-lg > .app-searchbox-field,
+input[type="color"],
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.5;
 }
 
@@ -2064,7 +2064,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select:not
 .input-group-lg > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-lg > .input-group-prepend > select.btn:not([size]):not([multiple]),
 .input-group-lg > .input-group-append > select.btn:not([size]):not([multiple]) {
-  height: calc(2.875rem + 2px);
+  height: calc(2.6875rem + 2px);
 }
 
 .form-group {
@@ -2165,7 +2165,7 @@ input[type="email"]:valid, .was-validated
 input[type="url"]:valid, .was-validated
 input[type="search"]:valid, .was-validated
 input[type="tel"]:valid, .was-validated
-input[type="color"]:valid, .was-validated .app-searchbox-field:valid, .form-control.is-valid, select.is-valid,
+input[type="color"]:valid, .form-control.is-valid, select.is-valid,
 textarea.is-valid,
 input.is-valid[type="text"],
 input.is-valid[type="password"],
@@ -2180,7 +2180,7 @@ input.is-valid[type="email"],
 input.is-valid[type="url"],
 input.is-valid[type="search"],
 input.is-valid[type="tel"],
-input.is-valid[type="color"], .is-valid.app-searchbox-field, .was-validated
+input.is-valid[type="color"], .was-validated
 .custom-select:valid,
 .custom-select.is-valid {
   border-color: #28a745;
@@ -2201,7 +2201,7 @@ input[type="email"]:valid:focus, .was-validated
 input[type="url"]:valid:focus, .was-validated
 input[type="search"]:valid:focus, .was-validated
 input[type="tel"]:valid:focus, .was-validated
-input[type="color"]:valid:focus, .was-validated .app-searchbox-field:valid:focus, .form-control.is-valid:focus, select.is-valid:focus,
+input[type="color"]:valid:focus, .form-control.is-valid:focus, select.is-valid:focus,
 textarea.is-valid:focus,
 input.is-valid[type="text"]:focus,
 input.is-valid[type="password"]:focus,
@@ -2216,7 +2216,7 @@ input.is-valid[type="email"]:focus,
 input.is-valid[type="url"]:focus,
 input.is-valid[type="search"]:focus,
 input.is-valid[type="tel"]:focus,
-input.is-valid[type="color"]:focus, .is-valid.app-searchbox-field:focus, .was-validated
+input.is-valid[type="color"]:focus, .was-validated
 .custom-select:valid:focus,
 .custom-select.is-valid:focus {
   border-color: #28a745;
@@ -2238,7 +2238,7 @@ input[type="email"]:valid ~ .valid-feedback, .was-validated
 input[type="url"]:valid ~ .valid-feedback, .was-validated
 input[type="search"]:valid ~ .valid-feedback, .was-validated
 input[type="tel"]:valid ~ .valid-feedback, .was-validated
-input[type="color"]:valid ~ .valid-feedback, .was-validated .app-searchbox-field:valid ~ .valid-feedback,
+input[type="color"]:valid ~ .valid-feedback,
 .was-validated .form-control:valid ~ .valid-tooltip,
 .was-validated select:valid ~ .valid-tooltip,
 .was-validated
@@ -2270,8 +2270,7 @@ input[type="search"]:valid ~ .valid-tooltip,
 .was-validated
 input[type="tel"]:valid ~ .valid-tooltip,
 .was-validated
-input[type="color"]:valid ~ .valid-tooltip,
-.was-validated .app-searchbox-field:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback, select.is-valid ~ .valid-feedback,
+input[type="color"]:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback, select.is-valid ~ .valid-feedback,
 textarea.is-valid ~ .valid-feedback,
 input.is-valid[type="text"] ~ .valid-feedback,
 input.is-valid[type="password"] ~ .valid-feedback,
@@ -2286,7 +2285,7 @@ input.is-valid[type="email"] ~ .valid-feedback,
 input.is-valid[type="url"] ~ .valid-feedback,
 input.is-valid[type="search"] ~ .valid-feedback,
 input.is-valid[type="tel"] ~ .valid-feedback,
-input.is-valid[type="color"] ~ .valid-feedback, .is-valid.app-searchbox-field ~ .valid-feedback,
+input.is-valid[type="color"] ~ .valid-feedback,
 .form-control.is-valid ~ .valid-tooltip, select.is-valid ~ .valid-tooltip,
 textarea.is-valid ~ .valid-tooltip,
 input.is-valid[type="text"] ~ .valid-tooltip,
@@ -2302,7 +2301,7 @@ input.is-valid[type="email"] ~ .valid-tooltip,
 input.is-valid[type="url"] ~ .valid-tooltip,
 input.is-valid[type="search"] ~ .valid-tooltip,
 input.is-valid[type="tel"] ~ .valid-tooltip,
-input.is-valid[type="color"] ~ .valid-tooltip, .is-valid.app-searchbox-field ~ .valid-tooltip, .was-validated
+input.is-valid[type="color"] ~ .valid-tooltip, .was-validated
 .custom-select:valid ~ .valid-feedback,
 .was-validated
 .custom-select:valid ~ .valid-tooltip,
@@ -2405,7 +2404,7 @@ input[type="email"]:invalid, .was-validated
 input[type="url"]:invalid, .was-validated
 input[type="search"]:invalid, .was-validated
 input[type="tel"]:invalid, .was-validated
-input[type="color"]:invalid, .was-validated .app-searchbox-field:invalid, .form-control.is-invalid, select.is-invalid,
+input[type="color"]:invalid, .form-control.is-invalid, select.is-invalid,
 textarea.is-invalid,
 input.is-invalid[type="text"],
 input.is-invalid[type="password"],
@@ -2420,7 +2419,7 @@ input.is-invalid[type="email"],
 input.is-invalid[type="url"],
 input.is-invalid[type="search"],
 input.is-invalid[type="tel"],
-input.is-invalid[type="color"], .is-invalid.app-searchbox-field, .was-validated
+input.is-invalid[type="color"], .was-validated
 .custom-select:invalid,
 .custom-select.is-invalid {
   border-color: #dc3545;
@@ -2441,7 +2440,7 @@ input[type="email"]:invalid:focus, .was-validated
 input[type="url"]:invalid:focus, .was-validated
 input[type="search"]:invalid:focus, .was-validated
 input[type="tel"]:invalid:focus, .was-validated
-input[type="color"]:invalid:focus, .was-validated .app-searchbox-field:invalid:focus, .form-control.is-invalid:focus, select.is-invalid:focus,
+input[type="color"]:invalid:focus, .form-control.is-invalid:focus, select.is-invalid:focus,
 textarea.is-invalid:focus,
 input.is-invalid[type="text"]:focus,
 input.is-invalid[type="password"]:focus,
@@ -2456,7 +2455,7 @@ input.is-invalid[type="email"]:focus,
 input.is-invalid[type="url"]:focus,
 input.is-invalid[type="search"]:focus,
 input.is-invalid[type="tel"]:focus,
-input.is-invalid[type="color"]:focus, .is-invalid.app-searchbox-field:focus, .was-validated
+input.is-invalid[type="color"]:focus, .was-validated
 .custom-select:invalid:focus,
 .custom-select.is-invalid:focus {
   border-color: #dc3545;
@@ -2478,7 +2477,7 @@ input[type="email"]:invalid ~ .invalid-feedback, .was-validated
 input[type="url"]:invalid ~ .invalid-feedback, .was-validated
 input[type="search"]:invalid ~ .invalid-feedback, .was-validated
 input[type="tel"]:invalid ~ .invalid-feedback, .was-validated
-input[type="color"]:invalid ~ .invalid-feedback, .was-validated .app-searchbox-field:invalid ~ .invalid-feedback,
+input[type="color"]:invalid ~ .invalid-feedback,
 .was-validated .form-control:invalid ~ .invalid-tooltip,
 .was-validated select:invalid ~ .invalid-tooltip,
 .was-validated
@@ -2510,8 +2509,7 @@ input[type="search"]:invalid ~ .invalid-tooltip,
 .was-validated
 input[type="tel"]:invalid ~ .invalid-tooltip,
 .was-validated
-input[type="color"]:invalid ~ .invalid-tooltip,
-.was-validated .app-searchbox-field:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback, select.is-invalid ~ .invalid-feedback,
+input[type="color"]:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback, select.is-invalid ~ .invalid-feedback,
 textarea.is-invalid ~ .invalid-feedback,
 input.is-invalid[type="text"] ~ .invalid-feedback,
 input.is-invalid[type="password"] ~ .invalid-feedback,
@@ -2526,7 +2524,7 @@ input.is-invalid[type="email"] ~ .invalid-feedback,
 input.is-invalid[type="url"] ~ .invalid-feedback,
 input.is-invalid[type="search"] ~ .invalid-feedback,
 input.is-invalid[type="tel"] ~ .invalid-feedback,
-input.is-invalid[type="color"] ~ .invalid-feedback, .is-invalid.app-searchbox-field ~ .invalid-feedback,
+input.is-invalid[type="color"] ~ .invalid-feedback,
 .form-control.is-invalid ~ .invalid-tooltip, select.is-invalid ~ .invalid-tooltip,
 textarea.is-invalid ~ .invalid-tooltip,
 input.is-invalid[type="text"] ~ .invalid-tooltip,
@@ -2542,7 +2540,7 @@ input.is-invalid[type="email"] ~ .invalid-tooltip,
 input.is-invalid[type="url"] ~ .invalid-tooltip,
 input.is-invalid[type="search"] ~ .invalid-tooltip,
 input.is-invalid[type="tel"] ~ .invalid-tooltip,
-input.is-invalid[type="color"] ~ .invalid-tooltip, .is-invalid.app-searchbox-field ~ .invalid-tooltip, .was-validated
+input.is-invalid[type="color"] ~ .invalid-tooltip, .was-validated
 .custom-select:invalid ~ .invalid-feedback,
 .was-validated
 .custom-select:invalid ~ .invalid-tooltip,
@@ -2656,7 +2654,7 @@ input.is-invalid[type="color"] ~ .invalid-tooltip, .is-invalid.app-searchbox-fie
   input[type="url"], .form-inline
   input[type="search"], .form-inline
   input[type="tel"], .form-inline
-  input[type="color"], .form-inline .app-searchbox-field {
+  input[type="color"] {
     display: inline-block;
     width: auto;
     vertical-align: middle;
@@ -2707,7 +2705,7 @@ input.is-invalid[type="color"] ~ .invalid-tooltip, .is-invalid.app-searchbox-fie
           user-select: none;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2975,14 +2973,14 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.5;
   border-radius: 0;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.7875rem;
   line-height: 1.5;
   border-radius: 0;
 }
@@ -3175,7 +3173,7 @@ input[type="email"], .input-group >
 input[type="url"], .input-group >
 input[type="search"], .input-group >
 input[type="tel"], .input-group >
-input[type="color"], .input-group > .app-searchbox-field,
+input[type="color"],
 .input-group > .custom-select,
 .input-group > .custom-file {
   position: relative;
@@ -3200,7 +3198,7 @@ input[type="email"] + .form-control, .input-group >
 input[type="url"] + .form-control, .input-group >
 input[type="search"] + .form-control, .input-group >
 input[type="tel"] + .form-control, .input-group >
-input[type="color"] + .form-control, .input-group > .app-searchbox-field + .form-control, .input-group > .form-control + select, .input-group > select + select, .input-group >
+input[type="color"] + .form-control, .input-group > .form-control + select, .input-group > select + select, .input-group >
 textarea + select, .input-group >
 input[type="text"] + select, .input-group >
 input[type="password"] + select, .input-group >
@@ -3215,7 +3213,7 @@ input[type="email"] + select, .input-group >
 input[type="url"] + select, .input-group >
 input[type="search"] + select, .input-group >
 input[type="tel"] + select, .input-group >
-input[type="color"] + select, .input-group > .app-searchbox-field + select, .input-group > .form-control +
+input[type="color"] + select, .input-group > .form-control +
 textarea, .input-group > select +
 textarea, .input-group >
 textarea +
@@ -3247,7 +3245,6 @@ textarea, .input-group >
 input[type="tel"] +
 textarea, .input-group >
 input[type="color"] +
-textarea, .input-group > .app-searchbox-field +
 textarea, .input-group > .form-control +
 input[type="text"], .input-group > select +
 input[type="text"], .input-group >
@@ -3280,7 +3277,6 @@ input[type="text"], .input-group >
 input[type="tel"] +
 input[type="text"], .input-group >
 input[type="color"] +
-input[type="text"], .input-group > .app-searchbox-field +
 input[type="text"], .input-group > .form-control +
 input[type="password"], .input-group > select +
 input[type="password"], .input-group >
@@ -3313,7 +3309,6 @@ input[type="password"], .input-group >
 input[type="tel"] +
 input[type="password"], .input-group >
 input[type="color"] +
-input[type="password"], .input-group > .app-searchbox-field +
 input[type="password"], .input-group > .form-control +
 input[type="datetime"], .input-group > select +
 input[type="datetime"], .input-group >
@@ -3346,7 +3341,6 @@ input[type="datetime"], .input-group >
 input[type="tel"] +
 input[type="datetime"], .input-group >
 input[type="color"] +
-input[type="datetime"], .input-group > .app-searchbox-field +
 input[type="datetime"], .input-group > .form-control +
 input[type="datetime-local"], .input-group > select +
 input[type="datetime-local"], .input-group >
@@ -3379,7 +3373,6 @@ input[type="datetime-local"], .input-group >
 input[type="tel"] +
 input[type="datetime-local"], .input-group >
 input[type="color"] +
-input[type="datetime-local"], .input-group > .app-searchbox-field +
 input[type="datetime-local"], .input-group > .form-control +
 input[type="date"], .input-group > select +
 input[type="date"], .input-group >
@@ -3412,7 +3405,6 @@ input[type="date"], .input-group >
 input[type="tel"] +
 input[type="date"], .input-group >
 input[type="color"] +
-input[type="date"], .input-group > .app-searchbox-field +
 input[type="date"], .input-group > .form-control +
 input[type="month"], .input-group > select +
 input[type="month"], .input-group >
@@ -3445,7 +3437,6 @@ input[type="month"], .input-group >
 input[type="tel"] +
 input[type="month"], .input-group >
 input[type="color"] +
-input[type="month"], .input-group > .app-searchbox-field +
 input[type="month"], .input-group > .form-control +
 input[type="time"], .input-group > select +
 input[type="time"], .input-group >
@@ -3478,7 +3469,6 @@ input[type="time"], .input-group >
 input[type="tel"] +
 input[type="time"], .input-group >
 input[type="color"] +
-input[type="time"], .input-group > .app-searchbox-field +
 input[type="time"], .input-group > .form-control +
 input[type="week"], .input-group > select +
 input[type="week"], .input-group >
@@ -3511,7 +3501,6 @@ input[type="week"], .input-group >
 input[type="tel"] +
 input[type="week"], .input-group >
 input[type="color"] +
-input[type="week"], .input-group > .app-searchbox-field +
 input[type="week"], .input-group > .form-control +
 input[type="number"], .input-group > select +
 input[type="number"], .input-group >
@@ -3544,7 +3533,6 @@ input[type="number"], .input-group >
 input[type="tel"] +
 input[type="number"], .input-group >
 input[type="color"] +
-input[type="number"], .input-group > .app-searchbox-field +
 input[type="number"], .input-group > .form-control +
 input[type="email"], .input-group > select +
 input[type="email"], .input-group >
@@ -3577,7 +3565,6 @@ input[type="email"], .input-group >
 input[type="tel"] +
 input[type="email"], .input-group >
 input[type="color"] +
-input[type="email"], .input-group > .app-searchbox-field +
 input[type="email"], .input-group > .form-control +
 input[type="url"], .input-group > select +
 input[type="url"], .input-group >
@@ -3610,7 +3597,6 @@ input[type="url"], .input-group >
 input[type="tel"] +
 input[type="url"], .input-group >
 input[type="color"] +
-input[type="url"], .input-group > .app-searchbox-field +
 input[type="url"], .input-group > .form-control +
 input[type="search"], .input-group > select +
 input[type="search"], .input-group >
@@ -3643,7 +3629,6 @@ input[type="search"], .input-group >
 input[type="tel"] +
 input[type="search"], .input-group >
 input[type="color"] +
-input[type="search"], .input-group > .app-searchbox-field +
 input[type="search"], .input-group > .form-control +
 input[type="tel"], .input-group > select +
 input[type="tel"], .input-group >
@@ -3676,7 +3661,6 @@ input[type="tel"], .input-group >
 input[type="tel"] +
 input[type="tel"], .input-group >
 input[type="color"] +
-input[type="tel"], .input-group > .app-searchbox-field +
 input[type="tel"], .input-group > .form-control +
 input[type="color"], .input-group > select +
 input[type="color"], .input-group >
@@ -3709,23 +3693,7 @@ input[type="color"], .input-group >
 input[type="tel"] +
 input[type="color"], .input-group >
 input[type="color"] +
-input[type="color"], .input-group > .app-searchbox-field +
-input[type="color"], .input-group > .form-control + .app-searchbox-field, .input-group > select + .app-searchbox-field, .input-group >
-textarea + .app-searchbox-field, .input-group >
-input[type="text"] + .app-searchbox-field, .input-group >
-input[type="password"] + .app-searchbox-field, .input-group >
-input[type="datetime"] + .app-searchbox-field, .input-group >
-input[type="datetime-local"] + .app-searchbox-field, .input-group >
-input[type="date"] + .app-searchbox-field, .input-group >
-input[type="month"] + .app-searchbox-field, .input-group >
-input[type="time"] + .app-searchbox-field, .input-group >
-input[type="week"] + .app-searchbox-field, .input-group >
-input[type="number"] + .app-searchbox-field, .input-group >
-input[type="email"] + .app-searchbox-field, .input-group >
-input[type="url"] + .app-searchbox-field, .input-group >
-input[type="search"] + .app-searchbox-field, .input-group >
-input[type="tel"] + .app-searchbox-field, .input-group >
-input[type="color"] + .app-searchbox-field, .input-group > .app-searchbox-field + .app-searchbox-field,
+input[type="color"],
 .input-group > .form-control + .custom-select,
 .input-group > select + .custom-select,
 .input-group >
@@ -3758,7 +3726,6 @@ input[type="search"] + .custom-select,
 input[type="tel"] + .custom-select,
 .input-group >
 input[type="color"] + .custom-select,
-.input-group > .app-searchbox-field + .custom-select,
 .input-group > .form-control + .custom-file,
 .input-group > select + .custom-file,
 .input-group >
@@ -3791,7 +3758,6 @@ input[type="search"] + .custom-file,
 input[type="tel"] + .custom-file,
 .input-group >
 input[type="color"] + .custom-file,
-.input-group > .app-searchbox-field + .custom-file,
 .input-group > .custom-select + .form-control,
 .input-group > .custom-select + select,
 .input-group > .custom-select +
@@ -3824,7 +3790,6 @@ input[type="search"],
 input[type="tel"],
 .input-group > .custom-select +
 input[type="color"],
-.input-group > .custom-select + .app-searchbox-field,
 .input-group > .custom-select + .custom-select,
 .input-group > .custom-select + .custom-file,
 .input-group > .custom-file + .form-control,
@@ -3859,7 +3824,6 @@ input[type="search"],
 input[type="tel"],
 .input-group > .custom-file +
 input[type="color"],
-.input-group > .custom-file + .app-searchbox-field,
 .input-group > .custom-file + .custom-select,
 .input-group > .custom-file + .custom-file {
   margin-left: -1px;
@@ -3880,7 +3844,7 @@ input[type="email"]:focus, .input-group >
 input[type="url"]:focus, .input-group >
 input[type="search"]:focus, .input-group >
 input[type="tel"]:focus, .input-group >
-input[type="color"]:focus, .input-group > .app-searchbox-field:focus,
+input[type="color"]:focus,
 .input-group > .custom-select:focus,
 .input-group > .custom-file .custom-file-input:focus ~ .custom-file-label {
   z-index: 3;
@@ -3931,7 +3895,7 @@ input[type="color"]:focus, .input-group > .app-searchbox-field:focus,
       align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -4064,7 +4028,7 @@ input[type="color"]:focus, .input-group > .app-searchbox-field:focus,
 .custom-select {
   display: inline-block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.1rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -4105,14 +4069,14 @@ input[type="color"]:focus, .input-group > .app-searchbox-field:focus,
 }
 
 .custom-select-sm {
-  height: calc(1.8125rem + 2px);
+  height: calc(1.68125rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 75%;
 }
 
 .custom-select-lg {
-  height: calc(2.875rem + 2px);
+  height: calc(2.6875rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 125%;
@@ -4122,7 +4086,7 @@ input[type="color"]:focus, .input-group > .app-searchbox-field:focus,
   position: relative;
   display: inline-block;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.1rem + 2px);
   margin-bottom: 0;
 }
 
@@ -4130,7 +4094,7 @@ input[type="color"]:focus, .input-group > .app-searchbox-field:focus,
   position: relative;
   z-index: 2;
   width: 100%;
-  height: calc(2.25rem + 2px);
+  height: calc(2.1rem + 2px);
   margin: 0;
   opacity: 0;
 }
@@ -4154,7 +4118,7 @@ input[type="color"]:focus, .input-group > .app-searchbox-field:focus,
   right: 0;
   left: 0;
   z-index: 1;
-  height: calc(2.25rem + 2px);
+  height: calc(2.1rem + 2px);
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -4169,7 +4133,7 @@ input[type="color"]:focus, .input-group > .app-searchbox-field:focus,
   bottom: 0;
   z-index: 3;
   display: block;
-  height: 2.25rem;
+  height: 2.1rem;
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   color: #495057;
@@ -7828,6 +7792,11 @@ div.riform .label {
   display: block;
 }
 
+iframe {
+  border: none;
+  width: 100%;
+}
+
 .app-default {
   color: #66aee9;
 }
@@ -7842,13 +7811,7 @@ div.riform .label {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66aee9', endColorstr='#4281b7',GradientType=0 );
   /* IE6-9 */
-}
-
-@media (min-width: 768px) {
-  .app-header {
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #e9ecef;
-  }
+  margin-bottom: 1rem;
 }
 
 .app-header__content {
@@ -8442,7 +8405,7 @@ span.required:after {
           user-select: none;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -8741,12 +8704,14 @@ img[data-sizes="auto"] {
 }
 
 .app-breadcrumbs {
+  display: none;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 30px;
+  background: transparent;
 }
 
 @media (min-width: 576px) {
@@ -8773,8 +8738,18 @@ img[data-sizes="auto"] {
   }
 }
 
+@media (min-width: 992px) {
+  .app-breadcrumbs {
+    display: block;
+  }
+}
+
+.app-breadcrumbs-item {
+  display: inline;
+}
+
 .app-breadcrumbs-item > a {
-  color: #e9ecef;
+  color: #4281b7;
 }
 
 .app-brand {
@@ -8860,19 +8835,20 @@ img[data-sizes="auto"] {
   display: block;
   padding: 1rem 0;
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.25;
   color: #fff;
 }
 
 @media (min-width: 576px) {
   .app-brandname {
-    font-size: 1.65rem;
+    font-size: 2rem;
   }
 }
 
 .app-brandname .app-brandname-sub {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .app-brand-aside {
@@ -8885,296 +8861,9 @@ img[data-sizes="auto"] {
   padding: 1rem 1rem 0 1rem;
 }
 
-.app-nav-bar {
-  position: relative;
-  right: -100%;
-}
-
-.app-nav-bar--overlay {
-  pointer-events: all;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 1001;
-  width: 90vw;
-  height: 100vh;
-  border-top: 10px solid #212529;
-  background-color: #fff;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25), 0 0.65rem 0.65rem rgba(0, 0, 0, 0.22);
-  transition: right .5s linear;
-}
-
-@media (min-width: 768px) {
-  .app-nav-bar--overlay {
-    width: 50vw;
-  }
-}
-
-@media (min-width: 992px) {
-  .app-nav-bar {
-    display: block;
-    right: 0;
-  }
-}
-
-.app-nav-bar--hidden {
-  height: 0;
-}
-
-.app-nav-bar__header {
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 1rem;
-  background: #000;
-  color: #fff;
-}
-
-@media (min-width: 992px) {
-  .app-nav-bar__header {
-    display: none;
-  }
-}
-
-.app-nav-bar__title {
-  width: 100%;
-  padding: 1rem;
-  font-family: Raleway;
-  text-transform: uppercase;
-  font-size: 1.25rem;
-}
-
-.app-nav-bar__toggle {
-  width: 4rem;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  line-height: 1;
-  background: transparent;
-  border: 1px solid transparent;
-  font-size: 3rem;
-  color: #fff;
-}
-
-.app-nav {
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  background-color: #fff;
-}
-
-@media (min-width: 992px) {
-  .app-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: row;
-        flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-align: center;
-        align-items: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: .5rem;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-  }
-}
-
-.app-nav--level-1 {
-  height: 0;
-  overflow-y: scroll;
-}
-
-.app-nav--level-1 {
-  position: relative;
-  right: -100%;
-}
-
-@media (min-width: 992px) {
-  .app-nav--level-1 {
-    right: 0;
-    display: none;
-  }
-}
-
-.app-nav__item {
-  position: relative;
-  overflow: visible;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border-bottom: 1px solid #dee2e6;
-  background-color: #fff;
-}
-
-@media (min-width: 992px) {
-  .app-nav__item {
-    width: auto;
-    -ms-flex: 1 0 0%;
-        flex: 1 0 0%;
-    padding: 1rem 0;
-    margin-right: 1rem;
-    border: none;
-  }
-}
-
-@media (min-width: 1200px) {
-  .app-nav__item {
-    margin-right: 1rem;
-  }
-}
-
-.app-nav__item--back-link {
-  background-color: #dee2e6;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-}
-
-.app-nav__item--has-children {
-  position: relative;
-}
-
-.app-nav__link {
-  display: block;
-  text-decoration: none;
-  color: #000;
-  font-family: "Open Sans";
-  text-transform: none;
-  font-weight: 400;
-  line-height: 1;
-  transition: background-color 0.5s ease;
-  font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-  .app-nav__link {
-    text-transform: uppercase;
-  }
-}
-
-.app-nav__link:hover {
-  text-decoration: none;
-  background: transparent;
-}
-
-.app-nav__link--active, .app-nav__link--open {
-  text-decoration: none;
-  background: transparent;
-}
-
-.app-nav--level-1 .app-nav__link:after {
-  display: none;
-}
-
-@media (min-width: 992px) {
-  .app-nav__link {
-    font-size: 1rem;
-    padding-right: 0.25rem;
-    padding-left: 0.25rem;
-    line-height: 1rem;
-  }
-  .app-nav__link:after {
-    display: none;
-  }
-}
-
-.app-nav__link--back-link {
-  height: 3rem;
-}
-
-@media (max-width: 1199.98px) {
-  .app-nav__link--has-icon {
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-.app-nav__tab {
-  display: inline-block;
-  width: 100%;
-  padding: 1rem;
-}
-
-.app-nav__link--has-icon .app-nav__tab {
-  display: block;
-}
-
-@media (min-width: 992px) {
-  .app-nav__link--has-icon .app-nav__tab {
-    display: inline-block;
-  }
-}
-
-.app-nav__tab--hide-text {
-  text-indent: -9999px;
-  overflow: hidden;
-  width: 0;
-  padding: 0;
-}
-
-.app-nav__tab--action {
-  margin-top: .5rem;
-  padding: 0;
-  width: 2rem;
-  height: 2rem;
-}
-
-@media (min-width: 992px) {
-  .app-nav__tab--action {
-    display: none;
-  }
-}
-
-.app-nav__link--back-link .app-nav__tab--action {
-  display: inline-block;
-}
-
-@media (min-width: 992px) {
-  .app-nav__tab {
-    padding: 0;
-  }
-}
-
-.app-nav__dropdown {
-  position: fixed;
-  top: 4rem;
-  right: 0;
-  z-index: 1002;
-  width: 90vw;
-  height: calc(100vh - 60px);
-  margin: 2rem 0 0;
-  background-color: #fff;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  transition: right .25s linear;
-}
-
-@media (min-width: 992px) {
-  .app-nav__dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    float: left;
-    width: 50vw;
-  }
-}
-
-.app-nav__dropdown--hidden {
-  right: -100%;
-  transition: right .25s linear;
-}
-
 .app-nav-tree {
-  display: none;
   background-color: transparent;
   font-weight: 500;
-}
-
-@media (min-width: 992px) {
-  .app-nav-tree {
-    display: block;
-  }
 }
 
 .app-nav__list {
@@ -9223,23 +8912,51 @@ img[data-sizes="auto"] {
 }
 
 .app-nav__list-link--open {
-  color: #66aee9;
+  color: #fff;
 }
 
 .app-nav__list-link--active {
-  color: #66aee9;
+  color: #fff;
 }
 
 .app-nav__list--level-0 {
   margin-bottom: 0;
 }
 
+.app-nav__list--level-0 .app-nav__list-item {
+  background-color: #4281b7;
+  padding: 1rem;
+}
+
+.app-nav__list--level-0 .app-nav__list-item--active {
+  background-color: #2e597f !important;
+}
+
+.app-nav__list--level-0 .app-nav__list-item--active .app-nav__list-link--active {
+  line-height: 3rem;
+}
+
 .app-nav__list--level-1 {
   margin-left: 0;
 }
 
-.app-actionbar {
+.app-nav__list--level-1 .app-nav__list-item {
+  background-color: #fff;
   padding: 1rem;
+}
+
+.app-nav__list--level-1 .app-nav__list-link--active {
+  color: #2e597f;
+}
+
+ul .portletItem {
+  list-style: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid #6c757d;
+}
+
+.app-actionbar {
+  padding: 1rem 0;
   background: #4281b7;
 }
 
@@ -9276,98 +8993,21 @@ img[data-sizes="auto"] {
   }
 }
 
-.app-actions {
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 0.85rem;
+.app-action-wrapper li {
+  display: inline;
+}
+
+.app-action-nl {
+  border: 1px solid black;
 }
 
 .app-action {
-  -ms-flex: 1;
-      flex: 1;
-  padding: .25rem;
   color: #fff;
-  background: #66aee9;
-  text-align: center;
+  text-align: right;
 }
 
 .app-action:nth-child(even) {
   color: #fff;
-  background: #4281b7;
-}
-
-.app-action-search {
-  -ms-flex: 1;
-      flex: 1;
-  color: #66aee9;
-  background: #edeaea;
-}
-
-.app-searchbox-group {
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.app-searchbox-control {
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.app-searchbox-field {
-  width: 66.6666%;
-  background-color: #edeaea;
-  border-color: #edeaea;
-}
-
-.app-searchbox-field::-webkit-input-placeholder {
-  color: #66aee9;
-  opacity: 1;
-}
-
-.app-searchbox-field:-ms-input-placeholder {
-  color: #66aee9;
-  opacity: 1;
-}
-
-.app-searchbox-field::placeholder {
-  color: #66aee9;
-  opacity: 1;
-}
-
-.app-searchbox-btn {
-  -ms-flex: 0 0 33.3333%;
-      flex: 0 0 33.3333%;
-  color: #212529;
-  background-color: #fff;
-  border-color: #4281b7;
-}
-
-.app-searchbox-btn:hover {
-  color: #fff;
-  background-color: #4281b7;
-  border-color: #346792;
-}
-
-.app-searchbox-btn:focus, .app-searchbox-btn.focus {
-  box-shadow: 0 0 0 0.2rem rgba(66, 129, 183, 0.5);
-}
-
-.app-searchbox-btn.disabled, .app-searchbox-btn:disabled {
-  color: #212529;
-  background-color: #fff;
-  border-color: #4281b7;
-}
-
-.app-searchbox-btn:not(:disabled):not(.disabled):active, .app-searchbox-btn:not(:disabled):not(.disabled).active,
-.show > .app-searchbox-btn.dropdown-toggle {
-  color: #212529;
-  background-color: #e6e6e6;
-  border-color: #316088;
-}
-
-.app-searchbox-btn:not(:disabled):not(.disabled):active:focus, .app-searchbox-btn:not(:disabled):not(.disabled).active:focus,
-.show > .app-searchbox-btn.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(66, 129, 183, 0.5);
 }
 
 .app-banner {
@@ -9466,7 +9106,7 @@ img[data-sizes="auto"] {
 @media (min-width: 576px) {
   .app-banner-item-title,
   .app-banner-item-headline {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -9536,6 +9176,11 @@ img[data-sizes="auto"] {
   display: table;
 }
 
+.app-card {
+  background: #fff;
+  margin-bottom: 1rem;
+}
+
 .no-flexbox .app-card {
   display: table-cell;
 }
@@ -9579,7 +9224,11 @@ img[data-sizes="auto"] {
 
 .app-card__header {
   padding: 0.75rem 1.25rem;
-  background: rgba(0, 0, 0, 0.03);
+  background: #6c757d;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  line-height: 3rem;
 }
 
 .app-card__header::after {
@@ -9598,8 +9247,17 @@ img[data-sizes="auto"] {
   content: "";
 }
 
+.app-card--nav .app-card__main {
+  padding: 0;
+}
+
+.app-card__main ul {
+  padding-left: 0;
+}
+
 .app-card__footer {
   padding: 0.75rem 1.25rem;
+  display: none;
 }
 
 .app-card--level-2 {
@@ -9839,16 +9497,17 @@ img[data-sizes="auto"] {
 
 .app-page-header {
   margin: 2rem 0;
-  border-bottom: 1px solid #ced4da;
+  border-bottom: 0.5rem solid #66aee9;
 }
 
-.app-page-title,
-.app-page-headline {
-  font-size: 2rem;
+.app-page__title,
+.app-page__headline {
+  font-size: 1.8rem;
+  text-transform: uppercase;
 }
 
-.app-page-lead,
-.app-page-abstract {
+.app-page__lead,
+.app-page__abstract {
   margin-bottom: 1rem;
   font-size: 1.25rem;
   font-weight: 300;
@@ -9856,9 +9515,9 @@ img[data-sizes="auto"] {
 }
 
 @media (min-width: 576px) {
-  .app-page-lead,
-  .app-page-abstract {
-    font-size: 1.5rem;
+  .app-page__lead,
+  .app-page__abstract {
+    font-size: 1rem;
   }
 }
 
@@ -9874,8 +9533,17 @@ img[data-sizes="auto"] {
   margin-bottom: 1rem;
 }
 
+.app-page-text ul {
+  list-style-position: outside;
+  padding-left: 1rem;
+}
+
+.app-page-text li {
+  padding-bottom: 1rem;
+}
+
 .event.summary {
-  float: right;
+  float: none !important;
   clear: right;
   margin: 1em 0 1em 1em;
 }

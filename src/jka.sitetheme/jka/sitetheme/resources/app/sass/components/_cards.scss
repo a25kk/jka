@@ -17,6 +17,8 @@
 
 //** Base card styles
 .app-card {
+    background: #fff;
+    margin-bottom: 1rem;
     @include when-inside('.no-flexbox') {
         // Fallback
         display: table-cell;
@@ -53,18 +55,29 @@
 .app-card__header {
   @include clearfix;
   padding: $card-spacer-y $card-spacer-x;
-  background: $card-cap-bg;
+  background: $gray-600;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  line-height: 3rem;
 }
 
 //** Card content
 .app-card__main {
   @include clearfix;
   padding: $card-spacer-y $card-spacer-x;
+  @include when-inside('.app-card--nav') {
+        padding: 0;
+    }
+    ul {
+      padding-left: 0;
+    }
 }
 
 //** Card footer
 .app-card__footer {
   padding: $card-spacer-y $card-spacer-x;
+  display: none;
 }
 
 

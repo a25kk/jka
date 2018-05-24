@@ -10,10 +10,9 @@
 	background: -webkit-linear-gradient(top,  #66aee9 0%,#4281b7 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  #66aee9 0%,#4281b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66aee9', endColorstr='#4281b7',GradientType=0 ); /* IE6-9 */
-
+  margin-bottom: 1rem;
   @include media-breakpoint-up(md) {
-      margin-bottom: 1rem;
-      border-bottom: 1px solid gray("200");
+      //border-bottom: 1px solid gray("200");
   }
 }
 

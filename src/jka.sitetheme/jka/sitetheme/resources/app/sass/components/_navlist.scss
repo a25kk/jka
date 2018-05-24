@@ -4,12 +4,9 @@
 
 
 .app-nav-tree {
-    display: none;
+    //display: none;
     background-color: transparent;
     font-weight: 500;
-    @include media-breakpoint-up(lg) {
-        display: block;
-    }
 }
 
 
@@ -41,7 +38,9 @@
     &:last-of-type {
         border-bottom: 0px;
     }
+
 }
+
 
 .app-nav__list-link {
     color: #000;
@@ -54,23 +53,46 @@
 }
 
 .app-nav__list-link--open {
-    color: $app-primary;
+    color: #fff;
 }
 
 .app-nav__list-link--active {
-    color: $app-primary;
+    color: #fff;
 }
 
 .app-nav__list--level-0 {
     margin-bottom: 0;
+    .app-nav__list-item {
+        background-color: $app-secondary;
+        padding: 1rem;
+    }
+
+    .app-nav__list-item--active {
+        background-color: $app-secondary-darker !important;
+        .app-nav__list-link--active {
+            line-height: 3rem;
+            }
+        }
 }
 
 .app-nav__list--level-1 {
     margin-left: 0;
-    //margin-top: 1rem;
+    .app-nav__list-item {
+        background-color: #fff;
+    padding: 1rem;
+    }
+    .app-nav__list-link--active {
+    color: $app-secondary-darker;
+    }
 }
 
 
 .app-nav__list--level-2 {
     //border: 1px solid red;
+}
+
+ul .portletItem {
+    list-style: none;
+    padding: 1rem 0;
+    border-bottom: 1px solid $gray-600;
 }
