@@ -12,6 +12,10 @@
         width: 100%;
     }
 
+    a {
+        color: #fff;
+    }
+
 }
 
 //** Inline svg logo
@@ -78,18 +82,13 @@
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.25;
-    color: $app-primary;
-    .app-brand-panel-inverse & {
-        font-size: 1.25rem;
-        line-height: 1;
-        color: #fff;
-        @include media-breakpoint-up(md) {
-            flex: 0 0 75%;
-        }
-    }
+    color: #fff;
     @include media-breakpoint-up(sm) {
         font-size: 1.65rem;
     }
+    .app-brandname-sub {
+        font-size: 1rem;
+        }
 }
 
 // Sitewide claim

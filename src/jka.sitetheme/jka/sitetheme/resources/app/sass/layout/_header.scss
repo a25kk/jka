@@ -4,7 +4,13 @@
 
 
 .app-header {
-  padding-top: 3rem;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#66aee9+0,4281b7+100 */
+	background: #66aee9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #66aee9 0%, #4281b7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #66aee9 0%,#4281b7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #66aee9 0%,#4281b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66aee9', endColorstr='#4281b7',GradientType=0 ); /* IE6-9 */
+
   @include media-breakpoint-up(md) {
       margin-bottom: 1rem;
       border-bottom: 1px solid gray("200");

@@ -3,7 +3,15 @@
 // -------------------------------------
 
 .app-actionbar {
+  padding: 1rem;
+  background: $app-secondary;
 
+}
+
+.app-action-wrapper {
+  @include make-container();
+  @include make-container-max-widths();
+  text-align: right;
 }
 
 .app-actions {
