@@ -1,7 +1,8 @@
 .app-page {
+  background-color: #fff;
   @include make-container();
   @include make-container-max-widths();
-    padding: 1rem;
+    padding: 2rem;
     @include media-breakpoint-up(sm) {
         margin-bottom: 1rem;
     }

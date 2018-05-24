@@ -11,7 +11,7 @@
 //
 //## Uses a container mixin for responsive sizing
 .app-banner {
-  @extend .container;
+  //@extend .container;
   position: relative;
 	// min-height: 430px;
 }
@@ -52,7 +52,6 @@
 .app-banner {
     overflow: hidden;
     margin-bottom: 2rem;
-    background: #fff;
     width: 100%;
         @include media-breakpoint-up(md) {
         margin-left: auto;
