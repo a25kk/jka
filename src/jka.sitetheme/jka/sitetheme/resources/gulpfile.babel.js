@@ -135,7 +135,7 @@ gulp.task('dev:watch', function () {
 });
 
 // Run development build
-gulp.task('collect', buildCollect);
+// gulp.task('develop', ['build:dev']);
 
 // Build distribution versions of styles and scripts
 gulp.task('dist', buildDistBase);

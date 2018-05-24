@@ -23,21 +23,21 @@
   },
   "scripts": {
     "app": [
-      "scripts/a25.js",
-      "scripts/a25.helpers.js",
-      "scripts/a25.navbar.js",
-      "scripts/app.js"
-    ],
+            "scripts/a25.js",
+            "scripts/a25.helpers.js",
+            "scripts/a25.navbar.js",
+            "scripts/app.js"
+        ],
     "src": [
-      "JVFloat/jvfloat.js",
-      "flickity/dist/flickity.pkgd.js",
-      "fontfaceobserver/fontfaceobserver.js",
-      "hideShowPassword/hideShowPassword.js",
-      "lazysizes/lazysizes-umd.js",
-      "lazysizes/plugins/parent-fit/ls.parent-fit.js",
-      "mailcheck/src/mailcheck.js",
-      "requirejs/require.js",
-      "respimage/respimage.js"
+        "JVFloat/jvfloat.js",
+        "flickity/dist/flickity.pkgd.js",
+        "fontfaceobserver/fontfaceobserver.js",
+        "hideShowPassword/hideShowPassword.js",
+        "lazysizes/lazysizes-umd.js",
+        "lazysizes/plugins/parent-fit/ls.parent-fit.js",
+        "mailcheck/src/mailcheck.js",
+        "requirejs/require.js",
+        "respimage/respimage.js"
 
     ],
     "base": [
@@ -54,71 +54,71 @@
     ]
   },
   "replacementPatterns": {
-    "base": [
-      {
-        "match": "/../dist/styles/",
-        "replacement": "/styles/"
-      },
-      {
-        "match": "/dist/styles/",
-        "replacement": "/styles/"
-      }
-    ],
-    "server": [
-      {
-        "match": "../../assets/",
-        "replacement": "../assets/"
-      },
-      {
-        "match": "../../dist/styles/",
-        "replacement": "/styles/"
-      },
-      {
-        "match": "../dist/styles/",
-        "replacement": "/styles/"
-      },
-      {
-        "match": "../../dist/scripts/",
-        "replacement": "/scripts/"
-      },
-      {
-        "match": "../dist/scripts/",
-        "replacement": "/scripts/"
-      }
-    ],
-    "pat": [
-      {
-        "match": "/../dist/",
-        "replacement": "/++theme++jka.sitetheme/dist/++theme++jka.sitetheme/dist/"
-      },
-      {
-        "match": "../assets/",
-        "replacement": "assets/"
-      },
-      {
-        "match": "assets/",
-        "replacement": "/++theme++jka.sitetheme//dist/assets/"
-      },
-      {
-        "match": "../styles/",
-        "replacement": "/++theme++jka.sitetheme/dist/styles/"
-      },
-      {
-        "match": "styles/",
-        "replacement": "/++theme++jka.sitetheme/dist/styles/"
-      },
-      {
-        "match": "/styles/",
-        "replacement": "/++theme++jka.sitetheme/dist/styles/"
-      },
-      {
-        "match": "../scripts/",
-        "replacement": "/++theme++jka.sitetheme/scripts/"
-      },
-      {
-        "match": "scripts/",
-        "replacement": "/++theme++jka.sitetheme/scripts/"
-      }
-    ]
-  }
+        "base": [
+            {
+                "match": "/../dist/styles/",
+                "replacement": "/styles/"
+            },
+            {
+                "match": "/dist/styles/",
+                "replacement": "/styles/"
+            }
+        ],
+        "server": [
+            {
+                "match": "../../assets/",
+                "replacement": "../assets/"
+            },
+            {
+                "match": "../../dist/styles/",
+                "replacement": "/styles/"
+            },
+            {
+                "match": "../dist/styles/",
+                "replacement": "/styles/"
+            },
+            {
+                "match": "../../dist/scripts/",
+                "replacement": "/scripts/"
+            },
+            {
+                "match": "../dist/scripts/",
+                "replacement": "/scripts/"
+            }
+        ],
+        "pat": [
+            {
+                "match": "/../dist/",
+                "replacement": "/++theme++jka.sitetheme/dist/++theme++jka.sitetheme/dist/"
+            },
+            {
+                "match": "../assets/",
+                "replacement": "assets/"
+            },
+            {
+                "match": "assets/",
+                "replacement": "/++theme++jka.sitetheme//dist/assets/"
+            },
+            {
+                "match": "../styles/",
+                "replacement": "/++theme++jka.sitetheme/dist/styles/"
+            },
+            {
+                "match": "styles/",
+                "replacement": "/++theme++jka.sitetheme/dist/styles/"
+            },
+            {
+                "match": "/styles/",
+                "replacement": "/++theme++jka.sitetheme/dist/styles/"
+            },
+            {
+                "match": "../scripts/",
+                "replacement": "/++theme++jka.sitetheme/scripts/"
+            },
+            {
+                "match": "scripts/",
+                "replacement": "/++theme++jka.sitetheme/scripts/"
+            }
+        ]
+    }
 }

@@ -5,6 +5,7 @@
 
 //** Adjust font weight for initialized webfonts
 body {
+    font-family: Verdana;
     @include when-inside('.fonts--loaded') {
         font-weight: 300;
     }
