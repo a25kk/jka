@@ -8944,11 +8944,15 @@ img[data-sizes="auto"] {
 .app-nav__list--level-1 .app-nav__list-item {
   background-color: #fff;
   text-transform: none !important;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 .app-nav__list--level-1 .app-nav__list-link--active {
   color: #fff;
+}
+
+.app-nav__list--level-1 .app-nav__list-link {
+  padding: 0;
 }
 
 ul .portletItem {
