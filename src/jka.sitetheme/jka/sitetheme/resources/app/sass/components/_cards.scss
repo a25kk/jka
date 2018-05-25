@@ -54,12 +54,16 @@
 //## Reflow card contents based on viewport size
 .app-card__header {
   @include clearfix;
-  padding: $card-spacer-y $card-spacer-x;
-  background: $gray-600;
+  padding: 1rem;
+  background: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: .5rem;
-  line-height: 3rem;
+  //margin-bottom: .5rem;
+  //line-height: 3rem;
+
+  @include when-inside('.app-nav-list') {
+    display: none;
+  }
 }
 
 //** Card content
