@@ -10082,6 +10082,10 @@ article.vevent {
   display: none;
 }
 
+.portletItemDetails {
+  display: block;
+}
+
 .app-main {
   width: 100%;
   padding-right: 15px;
