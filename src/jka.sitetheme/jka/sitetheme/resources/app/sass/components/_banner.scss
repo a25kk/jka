@@ -116,6 +116,7 @@
     font-size: 1rem;
     background: rgba(102, 174, 233, .5);
     padding: 0 1rem;
+    text-transform: uppercase;
         @include media-breakpoint-up(sm) {
         font-size: 1.2rem;
     }
