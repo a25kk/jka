@@ -17,7 +17,7 @@
 .app-aside,
 .app-content-main {
     @include make-col-ready();
-    @include make-col(12)
+    @include make-col(12);
 }
 
 .app-aside {
