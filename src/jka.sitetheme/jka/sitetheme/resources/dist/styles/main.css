@@ -9513,13 +9513,13 @@ ul .portletItem {
 
 .app-page-header {
   margin: 2rem 0;
-  border-bottom: 0.5rem solid #66aee9;
 }
 
 .app-page__title,
 .app-page__headline {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .app-page__lead,
@@ -9533,7 +9533,9 @@ ul .portletItem {
 @media (min-width: 576px) {
   .app-page__lead,
   .app-page__abstract {
-    font-size: .8rem;
+    font-size: 1rem;
+    background: rgba(102, 174, 233, 0.5);
+    padding: 1rem;
   }
 }
 
@@ -9556,6 +9558,14 @@ ul .portletItem {
 
 .app-page-text li {
   padding-bottom: 1rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  color: inherit;
 }
 
 .event.summary {

@@ -13,13 +13,14 @@
 //## Define content specific styles
 .app-page-header {
     margin: 2rem 0;
-    border-bottom: .5rem solid $app-primary;
+    //border-bottom: .5rem solid $app-primary;
 }
 
 .app-page__title,
 .app-page__headline{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 
@@ -32,7 +33,9 @@
   font-weight: 300;
   line-height: 1.5;
   @include media-breakpoint-up(sm) {
-    font-size: .8rem;
+    font-size: 1rem;
+    background: rgba(102, 174, 233, .5);
+    padding: 1rem;
   }
 }
 
@@ -78,4 +81,12 @@
   //  content: "• ";
   //  display: inline;
   //}
- } 
+ }
+
+ .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+    color: inherit;
+}
