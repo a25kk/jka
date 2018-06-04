@@ -14276,6 +14276,18 @@ ul .portletItem {
   font-size: 1rem;
 }
 
+table {
+  border: none;
+}
+
+table tr {
+  border-bottom: 1px solid #ced4da;
+}
+
+table td {
+  padding: 1rem 0;
+}
+
 .event.summary {
   float: none !important;
   clear: right;
