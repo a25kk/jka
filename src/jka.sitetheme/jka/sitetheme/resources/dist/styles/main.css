@@ -9533,9 +9533,9 @@ ul .portletItem {
 @media (min-width: 576px) {
   .app-page__lead,
   .app-page__abstract {
-    font-size: 1rem;
-    background: rgba(102, 174, 233, 0.5);
-    padding: 1rem;
+    font-size: 1,5rem;
+    font-style: italic;
+    color: #6c757d;
   }
 }
 

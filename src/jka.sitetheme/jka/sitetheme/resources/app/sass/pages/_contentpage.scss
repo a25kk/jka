@@ -33,9 +33,11 @@
   font-weight: 300;
   line-height: 1.5;
   @include media-breakpoint-up(sm) {
-    font-size: 1rem;
-    background: rgba(102, 174, 233, .5);
-    padding: 1rem;
+    font-size: 1,5rem;
+    font-style: italic;
+    color: $gray-600;
+    //background: rgba(102, 174, 233, .5);
+    //padding: 1rem;
   }
 }
 
