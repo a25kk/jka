@@ -13,7 +13,7 @@
 
 @import 'base/syntax';
 @import 'base/animation';
-@import 'base/fonts';
+//@import 'base/fonts';
 @import 'base/scaffolding';
 @import 'base/brand';
 
@@ -27,7 +27,7 @@
 @import 'components/alerts';
 @import 'components/pathbar';
 @import 'components/brand';
-//@import 'components/nav-bar';
+@import 'components/nav-bar';
 @import 'components/navlist';
 @import 'components/actionbar';
 @import 'components/banner';
