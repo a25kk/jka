@@ -19,6 +19,18 @@
   li {
     display: inline;
     }
+
+  .app-nl {
+    background: #fff;
+    margin-left: 1rem;
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    a {
+      color: $app-secondary;
+    }
+  }
 }
 
 .app-action-social {

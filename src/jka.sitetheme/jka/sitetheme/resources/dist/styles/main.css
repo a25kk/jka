@@ -13941,6 +13941,19 @@ ul .portletItem {
   display: inline;
 }
 
+.app-action-wrapper .app-nl {
+  background: #fff;
+  margin-left: 1rem;
+  padding: .2rem .5rem;
+  border-radius: .3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.app-action-wrapper .app-nl a {
+  color: #4281b7;
+}
+
 .app-action-nl {
   border: 1px solid black;
 }
