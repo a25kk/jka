@@ -14495,6 +14495,14 @@ ul .portletItem {
   }
 }
 
+.app-contentpage-body table {
+  width: 100%;
+}
+
+.app-contentpage-body td {
+  padding: 1rem;
+}
+
 .app-page-section {
   margin: 1rem 0 2rem;
 }
