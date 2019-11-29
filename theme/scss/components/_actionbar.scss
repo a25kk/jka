@@ -1,0 +1,69 @@
+//
+// Actionbar
+// -------------------------------------
+
+.app-actionbar {
+  padding: 1rem 0;
+  background: $app-secondary;
+
+}
+
+.app-action-wrapper {
+  @include make-container();
+  @include make-container-max-widths();
+  text-align: right;
+
+  ul {
+  }
+
+  li {
+    display: inline;
+    }
+
+  .app-nl {
+    background: #fff;
+    margin-left: 1rem;
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    a {
+      color: $app-secondary;
+    }
+  }
+}
+
+.app-action-social {
+  //flex: 1 0 90%;
+}
+
+.app-action-nl {
+  border: 1px solid black;
+  //flex: 1 0 10%;
+}
+
+.app-actions {
+  //display: flex;
+  //font-size: 0.85rem;
+}
+
+.app-newsletter {
+  //margin-top: 1rem;
+}
+
+.app-action {
+  //flex: 1;
+  //padding: .25rem;
+  color: #fff;
+  //background: $app-primary;
+  text-align: right;
+  &:nth-child(even) {
+    color: #fff;
+    //background: $app-secondary;
+  }
+}
+
+.app-svg-icon {
+  width: 20px;
+  margin-left: 1rem;
+}
